@@ -1,0 +1,21 @@
+{
+    "name": "hquanmr/huapus-polyv",
+    "description": "polyv 保利威",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lhq",
+            "email": "2976930785@qq.com"
+        }
+    ],
+    "require": {
+        "leo108/php_sdk_skeleton": "0.0.1",
+        "monolog/monolog": "^1.26"
+    },
+    "autoload": {
+        "psr-4": {
+            "hquanmr\\HuapusPolyv\\": "src/"
+        }
+    }
+}
